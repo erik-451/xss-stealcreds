@@ -1,4 +1,4 @@
-# Login para exfiltrar credenciales en websites vulnerables a XSS (Ataque Phishing) 
+# Login para exfiltrar credenciales en websites vulnerables a XSS (Phishing) 
 
 ### Script simplicado y modificado para exfiltrar las cookies en background
 
